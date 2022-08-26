@@ -32,3 +32,51 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+Detail Information
+ECOMMERCE Next JS
+
+1. Tools:
+    - Visual Studio Code
+    - Google Chrome 
+    - NodeJS
+    - NextJS
+    - Material UI
+
+    - Visual Studio Code
+        - Extension
+            1. Bracket Pair Colorizer
+            2. ES7 React/Redux/GraphQL
+            3. ESLint
+            4. Javascript (ES6) code snippets
+            5. Prettier - Code formatter
+        - Configuration
+            "javascript.format.enable": false,
+            "prettier.singleQuote": true,
+            "editor.formatOnSave": true,
+2. Create Next app
+    - npx create-next-app
+    - add layout component
+    - add header, main and footer
+3. Add Styles
+    - add css to header, main and footer
+4. Fix SSR Issue on MaterialUI
+    - add _documents.js
+    - add code to fix styling Issue
+5. List Products
+    - add data.js
+    - add images
+    - render Products
+6. Add header links
+    - Add cart and login link
+    - use next/link and mui/link
+    - add css classes for header links                
+7. Create Product Details Page
+    - Create 3 Colums
+    - show img in first column
+    - show product info in  second column
+    - show add to cart action on third column
+    - add Styles
+
+

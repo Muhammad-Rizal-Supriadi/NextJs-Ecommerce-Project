@@ -2,8 +2,9 @@ const data = {
   products: [
     {
       name: 'Nike Shirt',
+      slug: 'nike-shirt',
       category: 'Shirts',
-      image: '/images/shirts1.jpg',
+      image: '/images/shirts2.jpg',
       price: 70,
       brand: 'Nike',
       ranting: 4.5,
@@ -13,8 +14,9 @@ const data = {
     },
     {
       name: 'Adidas Shirt',
+      slug: 'adidas-shirt',
       category: 'Shirts',
-      image: '/images/shirts2.jpg',
+      image: '/images/shirts1.jpg',
       price: 80,
       brand: 'Adidas',
       ranting: 4.2,
@@ -24,6 +26,7 @@ const data = {
     },
     {
       name: 'Puma Shirt',
+      slug: 'puma-shirt',
       category: 'Shirts',
       image: '/images/shirts3.jpg',
       price: 90,
@@ -35,6 +38,7 @@ const data = {
     },
     {
       name: 'Nike Shoes',
+      slug: 'nike-shoes',
       category: 'Shoes',
       image: '/images/Shoes1.jpg',
       price: 90,
@@ -46,6 +50,7 @@ const data = {
     },
     {
       name: 'Adidas Shoes',
+      slug: 'adidas-shoes',
       category: 'Shoes',
       image: '/images/Shoes2.jpg',
       price: 95,
@@ -57,6 +62,7 @@ const data = {
     },
     {
       name: 'Puma Shoes',
+      slug: 'puma-shoes',
       category: 'Shoes',
       image: '/images/Shoes3.jpg',
       price: 75,
