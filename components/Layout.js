@@ -10,19 +10,20 @@ import {
 } from '@material-ui/core';
 import useStyles from '../utils/styles';
 
-export default function Layout({ children }) {
+export default function Layout({ title, description, children }) {
   const classes = useStyles();
   return (
     <div>
       <Head>
-        <title>Next Ecommerce</title>
+        <title>
+          {title ? `${title} - Next SVK-Ecommerce` : 'Next SVK-Ecommerce'}
+        </title>
+        {description && <meta name="description" content={description}></meta>}
       </Head>
       <AppBar position="static" className="classes.navbar">
         <Toolbar>
           <NextLink href="/" passHref>
-            <Typography className={classes.brand}>
-              Serverkoding Ecommerce
-            </Typography>
+            <Typography className={classes.brand}>SVK-Ecommerce</Typography>
           </NextLink>
           <div className={classes.grow}></div>
           <div>

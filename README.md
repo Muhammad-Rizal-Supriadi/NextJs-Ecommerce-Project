@@ -78,5 +78,12 @@ ECOMMERCE Next JS
     - show product info in  second column
     - show add to cart action on third column
     - add Styles
+8. Create Product Detail Page
+    - Create 3 Columns
+    - Show Image in First Column
+    - Show Product info second column
+    - Show add to cart action on third column
+    - add Styles
+
 
 
