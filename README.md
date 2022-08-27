@@ -84,6 +84,11 @@ ECOMMERCE Next JS
     - Show Product info second column
     - Show add to cart action on third column
     - add Styles
+9. Add MaterialUI Theme
+    - Create Theme
+    - Use Theme Provider
+    - add H1 and H2 Styles
+    - set Theme colors    
 
 
 
