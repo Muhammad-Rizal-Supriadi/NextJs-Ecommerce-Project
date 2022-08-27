@@ -88,7 +88,8 @@ ECOMMERCE Next JS
     - Create Theme
     - Use Theme Provider
     - add H1 and H2 Styles
-    - set Theme colors    
+    - set Theme colors   
+    - npm install js-cookie 
 
 
 
