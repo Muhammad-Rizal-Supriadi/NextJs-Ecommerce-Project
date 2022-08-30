@@ -90,6 +90,11 @@ ECOMMERCE Next JS
     - add H1 and H2 Styles
     - set Theme colors   
     - npm install js-cookie 
+10. Connect Database MongoDB
+    - install MongoDB = https://www.mongodb.com/try/download/community
+    - install mongoose
+    - define connect and disconnect
+    - use it in the api
 
 
 
