@@ -101,6 +101,3 @@ ECOMMERCE Next JS
     - create /api/products/index.js 
     - create product js  
     - npm install next-connect  (Middleware and router)
-
-
-
